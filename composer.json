@@ -1,0 +1,21 @@
+{
+    "name": "aoepeople/installers",
+    "type": "composer-installer",
+    "license": "GPL",
+    "description": "A simple composer installer",
+    "keywords": [
+        "installer", "Magento", "modman"
+    ],
+    "authors": [
+        {
+            "name": "Fabrizio Branca",
+            "email": "{firstname}.{lastname}@aoe.com",
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Aoepeople\\Installers\\": "src/" }
+    },
+    "extra": {
+        "class": "Aoepeople\\Installers\\Installer"
+    }
+}
