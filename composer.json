@@ -1,5 +1,5 @@
 {
-    "name": "aoepeople/installers",
+    "name": "aoepeople/composer-installers",
     "type": "composer-installer",
     "license": "GPL",
     "description": "A simple composer installer",
@@ -13,10 +13,10 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Aoepeople\\Installers\\": "src/" }
+        "psr-0": { "Aoepeople\\ComposerInstallers\\": "src/" }
     },
     "extra": {
-        "class": "Aoepeople\\Installers\\Installer"
+        "class": "Aoepeople\\ComposerInstallers\\Installer"
     },
     "replace": {
         "magento-hackathon/magento-composer-installer":"*"

@@ -1,5 +1,5 @@
 <?php
-namespace Aoepeople\Installers;
+namespace Aoepeople\ComposerInstallers;
 
 use Composer\Composer;
 use Composer\Package\PackageInterface;

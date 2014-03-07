@@ -1,5 +1,5 @@
 <?php
-namespace Aoepeople\Installers;
+namespace Aoepeople\ComposerInstallers;
 
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
@@ -30,7 +30,7 @@ class Installer extends LibraryInstaller
             );
         }
 
-        $class = 'Aoepeople\\Installers\\' . $this->supportedTypes[$frameworkType];
+        $class = 'Aoepeople\\ComposerInstallers\\' . $this->supportedTypes[$frameworkType];
         $installer = new $class($package, $this->composer); /* @var $installer \Aoepeople\Installers\BaseInstaller */
 
         return $installer->getInstallPath($package, $frameworkType);
@@ -94,7 +94,7 @@ class Installer extends LibraryInstaller
     {
         $pattern = false;
         if (!empty($this->supportedTypes[$frameworkType])) {
-            $frameworkClass = 'Aoepeople\\Installers\\' . $this->supportedTypes[$frameworkType];
+            $frameworkClass = 'Aoepeople\\ComposerInstallers\\' . $this->supportedTypes[$frameworkType];
             /** @var BaseInstaller $framework */
             $framework = new $frameworkClass;
             $locations = array_keys($framework->getLocations());

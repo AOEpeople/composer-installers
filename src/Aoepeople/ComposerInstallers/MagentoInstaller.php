@@ -1,5 +1,5 @@
 <?php
-namespace Aoepeople\Installers;
+namespace Aoepeople\ComposerInstallers;
 
 class MagentoInstaller extends BaseInstaller
 {
