@@ -17,5 +17,8 @@
     },
     "extra": {
         "class": "Aoepeople\\Installers\\Installer"
+    },
+    "replace": {
+        "magento-hackathon/magento-composer-installer":"*"
     }
 }
