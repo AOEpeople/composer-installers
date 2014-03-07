@@ -9,7 +9,7 @@
     "authors": [
         {
             "name": "Fabrizio Branca",
-            "email": "{firstname}.{lastname}@aoe.com",
+            "email": "{firstname}.{lastname}@aoe.com"
         }
     ],
     "autoload": {
