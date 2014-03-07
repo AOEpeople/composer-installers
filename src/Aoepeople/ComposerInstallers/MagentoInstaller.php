@@ -4,7 +4,7 @@ namespace Aoepeople\ComposerInstallers;
 class MagentoInstaller extends BaseInstaller
 {
     protected $locations = array(
-        'module'   => '.modmanss/{$name}/',
+        'module'   => '.modman/{$name}/',
         'source'    => 'htdocs/'
     );
 }
