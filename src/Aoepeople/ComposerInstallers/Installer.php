@@ -13,7 +13,8 @@ class Installer extends LibraryInstaller
      * @var array
      */
     private $supportedTypes = array(
-        'magento'      => 'MagentoInstaller',
+        'magento' => 'MagentoInstaller',
+        'stackformation' => 'StackformationInstaller'
     );
 
     /**
